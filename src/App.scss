@@ -188,39 +188,45 @@ input::-webkit-inner-spin-button {
     background-color: darken($primary, 10%);
   }
 }
-
 #submit-button {
-  cursor: pointer;
-  padding: 0.625rem 1.25rem 0.625rem 0.625rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background-color: lighten($background, 10%);
-  color: #fff;
-  font-weight: bold;
-  border-radius: 2vw;
-  width: 40%;
-  margin-top: 45vh;
-  &:hover {
-    background-color: $primary;
-  }
+  pointer-events: none;
+  opacity: 0;
 }
 
-#bigball {
-  border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
-  margin-right: 0.625rem;
-  background-color: darken($background, 10%);
-  border: 0;
-  transition: all 0.25s;
-  &:hover {
-    width: 7rem;
-    height: 7rem;
-    margin-top: -0.125rem;
-    margin-left: -0.125rem;
-    background-color: darken($primary, 20%);
+@media (max-width: 480px) {
+  #submit-button {
+    cursor: pointer;
+    padding: 0.625rem 1.25rem 0.625rem 0.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lighten($background, 10%);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2vw;
+    width: 40%;
+    margin-top: 45vh;
+    &:hover {
+      background-color: $primary;
+    }
+  }
+
+  #bigball {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.625rem;
+    background-color: darken($background, 10%);
+    border: 0;
+    transition: all 0.25s;
+    &:hover {
+      width: 7rem;
+      height: 7rem;
+      margin-top: -0.125rem;
+      margin-left: -0.125rem;
+      background-color: darken($primary, 20%);
+    }
   }
 }
 
