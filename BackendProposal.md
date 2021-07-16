@@ -1,17 +1,18 @@
 ### What problem are you trying to solve?
 * _We are trying to develop a Backend System which receive data about some employees and return additional parameters._
-* _The parameters that we receive are: 
--First Name 
--Last Name 
--Date of Birth 
--Job Title 
--Company and Country ISO Code_ 
-* _We are supposed to add the following information:
--Full Name of the Country 
--Currency used in the Country 
--Language/s of the Country 
--Timezone/s of the Country._
-* _ We would also like employees in Asia and Europe regions to have an additional identifier which takes the form of `{firstName}{lastName}{dateOfBirth}`. So for Leonardo Teixeira born 28/01/2002 this would be `leonardoteixeira28012002`._
+* _The parameters that we receive are:_ 
+*__First Name__ 
+*__Last Name__ 
+*__Date of Birth__ 
+*__Job Title__ 
+*__Company and Country ISO Code__
+
+* _We are supposed to add the following information:_
+*__Full Name of the Country__ 
+*__Currency used in the Country__ 
+*__Language/s of the Country__ 
+*__Timezone/s of the Country__
+* _We would also like employees in Asia and Europe regions to have an additional identifier which takes the form of `{firstName}{lastName}{dateOfBirth}`. So for Leonardo Teixeira born 28/01/2002 this would be `leonardoteixeira28012002`._
 
 
 ### How do you propose to solve it?
