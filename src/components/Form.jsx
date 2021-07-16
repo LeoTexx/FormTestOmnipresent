@@ -265,14 +265,19 @@ export default function Form() {
           />
           <label for="input-5">
             <span className="label-text">Holiday Allowance</span>
-            <span className="nav-dot"></span>
+            <span className="nav-dot "></span>
           </label>
         </>
       )}
 
-      <button onClick={() => onSubmit} type="submit">
+      <button id="input-8" onClick={() => onSubmit} type="submit">
         Submit Employee Data
       </button>
+      <label for="input-8" id="submit-button">
+        <div>Submit Data</div>
+        <span id="bigball"></span>
+      </label>
+
       <ToastContainer
         position="bottom-center"
         draggablePercent={60}
